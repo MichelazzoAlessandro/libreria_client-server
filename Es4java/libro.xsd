@@ -1,0 +1,22 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="libro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="titolo" type="xs:string"/>
+        <xs:element name="autore" type="xs:string"/>
+        <xs:element name="edizione" type="xs:integer"/>
+        <xs:element name="anno" type="xs:integer"/>
+        <xs:element name="isbn" type="xs:string"/>
+        <xs:element name="numeroCopie" type="xs:integer"/>
+        <xs:element name="biblioteca">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nome" type="xs:string"/>
+              <xs:element name="indirizzo" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

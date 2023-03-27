@@ -1,0 +1,42 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="prestito">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="libro">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titolo" type="xs:string"/>
+              <xs:element name="biblioteca">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nome" type="xs:string"/>
+                    <xs:element name="indirizzo" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="utente">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nome" type="xs:string"/>
+              <xs:element name="cognome" type="xs:string"/>
+              <xs:element name="biblioteca">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nome" type="xs:string"/>
+                    <xs:element name="indirizzo" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dataPrestito" type="xs:date"/>
+        <xs:element name="dataScadenza" type="xs:date"/>
+        <xs:element name="stato" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

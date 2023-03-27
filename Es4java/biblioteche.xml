@@ -1,0 +1,22 @@
+<biblioteche>
+    <biblioteca >
+        <nome>Biblioteca Comunale</nome>
+        <indirizzo>Via Dante 1</indirizzo>
+        <sistema>GestionaleBiblio</sistema>
+        <swVersione>1.0.0</swVersione>
+        <produttore>
+            <nome>AziendaXYZ</nome>
+            <sitoWeb>www.aziendaxyz.it</sitoWeb>
+        </produttore>
+    </biblioteca>
+    <biblioteca>
+        <nome>Biblioteca Provinciale</nome>
+        <indirizzo>Via Roma 1</indirizzo>
+        <sistema>GestionaleBiblio</sistema>
+        <swVersione>1.0.0</swVersione>
+        <produttore>
+            <nome>AziendaXYZ</nome>
+            <sitoWeb>www.aziendaxyz.it</sitoWeb>
+        </produttore>
+    </biblioteca>
+</biblioteche>

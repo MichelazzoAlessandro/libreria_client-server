@@ -1,0 +1,20 @@
+<prestito>
+  <libro>
+    <titolo>Harry Potter e la Pietra Filosofale</titolo>
+    <biblioteca>
+      <nome>Biblioteca Provinciale</nome>
+      <indirizzo>Via Roma 1</indirizzo>
+    </biblioteca>
+  </libro>
+  <utente>
+    <nome>Mario</nome>
+    <cognome>Rossi</cognome>
+    <biblioteca>
+      <nome>Biblioteca Comunale</nome>
+      <indirizzo>Via Dante 1</indirizzo>
+    </biblioteca>
+  </utente>
+  <dataPrestito>2023-03-20</dataPrestito>
+  <dataScadenza>2023-03-27</dataScadenza>
+  <stato>inCorso</stato>
+</prestito>

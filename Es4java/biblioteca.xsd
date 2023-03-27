@@ -1,0 +1,26 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="biblioteche">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="biblioteca">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string"/>
+                            <xs:element name="indirizzo" type="xs:string"/>
+                            <xs:element name="sistema" type="xs:string"/>
+                            <xs:element name="swVersione" type="xs:string"/>
+                            <xs:element name="produttore">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nome" type="xs:string"/>
+                                        <xs:element name="sitoWeb" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

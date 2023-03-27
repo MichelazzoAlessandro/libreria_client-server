@@ -1,0 +1,12 @@
+<libro>
+  <titolo>Harry Potter e la Pietra Filosofale</titolo>
+  <autore>J.K. Rowling</autore>
+  <edizione>1</edizione>
+  <anno>1997</anno>
+  <isbn>978-88-04-65263-9</isbn>
+  <numeroCopie>3</numeroCopie>
+  <biblioteca>
+    <nome>Biblioteca Provinciale</nome>
+    <indirizzo>Via Roma 1</indirizzo>
+  </biblioteca>
+</libro>

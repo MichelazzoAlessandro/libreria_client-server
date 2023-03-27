@@ -1,0 +1,11 @@
+<utente>
+  <nome>Mario</nome>
+  <cognome>Rossi</cognome>
+  <indirizzo>Via Garibaldi 1</indirizzo>
+  <email>mario.rossi@gmail.com</email>
+  <codiceFiscale>RSOMRA01A01H501T</codiceFiscale>
+  <biblioteca>
+    <nome>Biblioteca Comunale</nome>
+    <indirizzo>Via Dante 1</indirizzo>
+  </biblioteca>
+</utente>
